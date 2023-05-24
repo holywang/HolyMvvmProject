@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mainList">
+        <item>Information页</item>
+        <item>生物解锁</item>
+        <item>GoogleServiceTest</item>
+        <item>MainPageForProblemApp</item>
+        <item>TestItem5</item>
+        <item>TestItem6</item>
+        <item>TestItem7</item>
+        <item>TestItem8</item>
+        <item>TestItem9</item>
+        <item>TestItem10</item>
+        <item>TestItem11</item>
+        <item>TestItem12</item>
+        <item>TestItem13</item>
+        <item>TestItem14</item>
+        <item>TestItem15</item>
+        <item>TestItem16</item>
+        <item>TestItem17</item>
+        <item>TestItem18</item>
+        <item>TestItem19</item>
+        <item>TestItem20</item>
+        <item>TestItem21</item>
+        <item>TestItem22</item>
+        <item>TestItem23</item>
+        <item>TestItem24</item>
+        <item>TestItem25</item>
+        <item>TestItem26</item>
+    </string-array>
+
+</resources>
