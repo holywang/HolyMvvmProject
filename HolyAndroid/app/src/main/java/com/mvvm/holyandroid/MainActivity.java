@@ -12,6 +12,7 @@ import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.mvvm.core.activity.BaseActivity;
+import com.mvvm.core.log.Logger;
 import com.mvvm.holyandroid.callback.SplashFinishCallback;
 import com.mvvm.holyandroid.databinding.ActivityMainBinding;
 import com.mvvm.holyandroid.fragment.MainFragment;
@@ -66,6 +67,7 @@ public class MainActivity extends BaseActivity implements SplashFinishCallback {
 
     @Override
     public void initView() {
+        Logger.init(getApplicationContext());
         mainFragment = MainFragment.newInstance();
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.main_frame, mainFragment);

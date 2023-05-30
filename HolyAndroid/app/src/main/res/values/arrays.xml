@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="mainList">
-        <item>Information页</item>
-        <item>生物解锁</item>
-        <item>GoogleServiceTest</item>
-        <item>MainPageForProblemApp</item>
+        <item>Login Logic</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
         <item>TestItem5</item>
         <item>TestItem6</item>
         <item>TestItem7</item>

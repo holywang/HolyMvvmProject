@@ -5,6 +5,8 @@ import android.content.Intent;
 
 import androidx.fragment.app.Fragment;
 
+import com.mvvm.core.log.Logger;
+
 /**
  * @author rg wang
  * created on  2023/5/16
@@ -12,6 +14,7 @@ import androidx.fragment.app.Fragment;
 public class BaseFragment extends Fragment {
 
     protected void jumpActivity(Context context, Class clazz) {
+        Logger.d("jumpActivity",clazz.getName());
         Intent it = new Intent();
         it.setClass(context, clazz);
         startActivity(it);
