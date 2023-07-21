@@ -1,3 +1,21 @@
 <resources>
+    <string name="default_web_client_id">226589700083-74ei33c4b20df3e83ouve40mibt3ife5.apps.googleusercontent.com</string>
+
+    <string name="sigh_up"><u>Sign up</u></string>
+    <string name="sigh_up_no_underline">Sign up</string>
     <string name="app_name">HolyAndroid</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="more_help">More help</string>
+    <string name="do_not_have_an_account_yet">Do not have an account yet?</string>
+    <string name="show_third_party_dialog">show_third_party_dialog</string>
+    <string name="how_would_you_like_to_log_in">How would you like to log in?</string>z
+    <string name="log_in_with_email">Log in with Email</string>
+    <string name="continue_with_apple">Continue with Apple</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="or">or</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
 </resources>

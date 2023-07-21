@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="mainList">
-        <item>Login Logic</item>
-        <item>2</item>
-        <item>3</item>
+        <item>Login Logic 登录模块</item>
+        <item>Third Party Login  第三方登录</item>
+        <item>payment 支付模块</item>
         <item>4</item>
         <item>TestItem5</item>
         <item>TestItem6</item>

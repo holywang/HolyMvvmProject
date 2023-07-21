@@ -15,6 +15,8 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import com.mvvm.core.fragment.BaseFragment;
 import com.mvvm.holyandroid.R;
 import com.mvvm.holyandroid.activity.LoginActivity;
+import com.mvvm.holyandroid.activity.PayActivity;
+import com.mvvm.holyandroid.activity.ThirdPartyLoginActivity;
 import com.mvvm.holyandroid.adapter.MainRefreshAdapter;
 
 import java.util.ArrayList;
@@ -129,8 +131,8 @@ public class MainFragment extends BaseFragment implements MainRefreshAdapter.OnI
     public void onItemClick(int position) {
         switch (position){
             case 0: jumpActivity(getActivity(), LoginActivity.class);break;
-//            case 1: jumpActivity(getActivity(), BiometricActivity.class);break;
-//            case 2: jumpActivity(getActivity(), GoogleServiceActivity.class);break;
+            case 1: jumpActivity(getActivity(), ThirdPartyLoginActivity.class);break;
+            case 2: jumpActivity(getActivity(), PayActivity.class);break;
 //            case 3: jumpActivity(getActivity(), ProblemAppMainActivity.class);break;
             default:
         }
