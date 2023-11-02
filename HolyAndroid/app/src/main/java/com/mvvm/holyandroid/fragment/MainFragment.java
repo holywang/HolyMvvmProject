@@ -11,9 +11,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-
 import com.mvvm.core.fragment.BaseFragment;
 import com.mvvm.holyandroid.R;
+import com.mvvm.holyandroid.activity.GooglePlayBillingActivity;
 import com.mvvm.holyandroid.activity.LoginActivity;
 import com.mvvm.holyandroid.activity.PayActivity;
 import com.mvvm.holyandroid.activity.ThirdPartyLoginActivity;
@@ -133,7 +133,7 @@ public class MainFragment extends BaseFragment implements MainRefreshAdapter.OnI
             case 0: jumpActivity(getActivity(), LoginActivity.class);break;
             case 1: jumpActivity(getActivity(), ThirdPartyLoginActivity.class);break;
             case 2: jumpActivity(getActivity(), PayActivity.class);break;
-//            case 3: jumpActivity(getActivity(), ProblemAppMainActivity.class);break;
+            case 3: jumpActivity(getActivity(), GooglePlayBillingActivity.class);break;
             default:
         }
 

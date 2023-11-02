@@ -1,5 +1,9 @@
 <resources>
-    <string name="default_web_client_id">226589700083-74ei33c4b20df3e83ouve40mibt3ife5.apps.googleusercontent.com</string>
+    <string name="default_web_client_id">299823010682-lp8dbk9gcqhaorpneuaet9f46i33rvac.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
 
     <string name="sigh_up"><u>Sign up</u></string>
     <string name="sigh_up_no_underline">Sign up</string>

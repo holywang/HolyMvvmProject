@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="48sp"
     android:padding="2sp"
+    android:background="@drawable/login_btn_circle_range"
     android:contentDescription="buy_with_googlepay_button_content_description">
 
     <!--    android:background="@drawable/googlepay_button_no_shadow_background"-->
@@ -15,6 +16,7 @@
         android:weightSum="2"
         android:gravity="center_vertical"
         android:orientation="vertical">
+
         <ImageView
             android:layout_weight="1"
             android:layout_width="match_parent"
@@ -23,6 +25,7 @@
             android:duplicateParentState="true"
             android:src="@drawable/ic_launcher_foreground"/>
     </LinearLayout>
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

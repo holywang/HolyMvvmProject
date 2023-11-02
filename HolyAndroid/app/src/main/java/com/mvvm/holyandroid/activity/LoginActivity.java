@@ -27,7 +27,7 @@ import com.mvvm.holyandroid.viewmodel.LoginViewModel;
 
 public class LoginActivity extends BaseActivity {
 
-    private static final int REQ_ONE_TAP = 0001;
+    public static final int REQ_ONE_TAP = 0001;
     private static final int REQUEST_CODE_GIS_SAVE_PASSWORD = 0002;
     private ActivityLoginBinding binding;
     private LoginViewModel model;

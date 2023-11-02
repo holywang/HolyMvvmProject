@@ -31,6 +31,7 @@ public class ThirdPartyDialog extends BaseDialog implements View.OnClickListener
     TextView
             tp_login_dialog_sign_up_btn;
     public static final int GOOGLE_LOGIN = 0001;
+    public static final int FACEBOOK_LOGIN = 0002;
 
     public static final String THIRD_PARTY_LOGIN = "THIRD_PARTY_LOGIN";
 
@@ -86,20 +87,23 @@ public class ThirdPartyDialog extends BaseDialog implements View.OnClickListener
     }
 
     private void loginWithFacebook() {
-
+        LoginUtils.facebookLogin(getOwnerActivity());
     }
 
     private void loginWithGoogle() {
+        Log.e(THIRD_PARTY_LOGIN,"google login on click");
         LoginUtils.googleLogin(getOwnerActivity(),
                 beginSignInResult -> {
                     try {
                         getOwnerActivity().startIntentSenderForResult(beginSignInResult.getPendingIntent().getIntentSender(), GOOGLE_LOGIN,
                                 null, 0, 0, 0);
                     } catch (IntentSender.SendIntentException e) {
+                        Log.e(THIRD_PARTY_LOGIN, "beginSignInResult");
                         Log.e(THIRD_PARTY_LOGIN, e.getLocalizedMessage());
                     }
                 },
                 e -> {
+                    Log.e(THIRD_PARTY_LOGIN, "ERROR");
                     Log.e(THIRD_PARTY_LOGIN, e.getLocalizedMessage());
                 });
     }

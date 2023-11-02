@@ -16,7 +16,9 @@ import com.google.android.gms.wallet.PaymentData;
 import com.google.android.gms.wallet.PaymentDataRequest;
 import com.google.android.gms.wallet.PaymentsClient;
 import com.mvvm.core.activity.BaseActivity;
+import com.mvvm.holyandroid.R;
 import com.mvvm.holyandroid.databinding.ActivityPayBinding;
+import com.mvvm.holyandroid.utils.Json;
 import com.mvvm.holyandroid.utils.PaymentsUtil;
 
 import org.json.JSONArray;
@@ -275,7 +277,8 @@ public class PayActivity extends BaseActivity {
 
         // Only load the list of items if it has not been loaded before
         if (garmentList == null) {
-//            garmentList = Json.readFromResources(this, R.raw.tshirts);
+            garmentList = Json.readFromResources(this, R.raw.tshirts);
+//            garmentList = new JSONArray();
         }
 
         // Take a random element from the list
